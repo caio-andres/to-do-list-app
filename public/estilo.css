@@ -2,8 +2,11 @@ body {
     font-family: 'Montserrat';font-size: 22px;
     display: flex;
     justify-content: center;
-    background: black;
+    background: rgba(0, 0, 0, 0.795);
     color: white;
+    align-items: center;
+    min-height: 80vh;
+    font-size: 40px;
 }
 
 button:hover {
@@ -17,4 +20,63 @@ button {
     background: white;
     color: black;
     transition-duration: 0.2s;
+}
+
+input {
+    border-radius: 5px;
+    border-color: white;
+    background: rgb(71, 69, 69);
+    color: white;
+    height: 2vh;
+    margin: 6px 0 10px 0;
+}
+
+button.arda {
+    border: none;
+    background: none;
+    color: red;
+}
+
+button:hover.arda {
+    color: white;
+}
+
+button.removeAll {
+    background: red;
+    color: white;
+}
+
+.tasks {
+    font-size: 20px;
+}
+
+button:hover.removeAll {
+    background: white;
+    color: red;
+}
+
+li {
+    list-style: none;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(97, 95, 95);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background-color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 10px 0;
+    font-size: 20px;
 }
